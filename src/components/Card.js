@@ -6,7 +6,7 @@ import React from "react";
 import { Link as RouterLink } from 'react-router-dom';
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
-const Card = ({ title, description, imageSrc, githubLink, demoLink}) => {
+const Card = ({ title, description, skills, imageSrc, githubLink, demoLink}) => {
   const cardProperty = {
     backgroundColor: "white",
     borderRadius: "10px",
@@ -16,12 +16,11 @@ const Card = ({ title, description, imageSrc, githubLink, demoLink}) => {
     <HStack style={cardProperty} spacing="4">
       <VStack  >
         <Image objectFit="cover" src={imageSrc} alt={title} borderRadius="10px" />
-        <VStack style={{padding: '10px'}} alignItems="flex-start">
-
+        <VStack style={{padding: '15px'}} alignItems="flex-start">
           <Heading size="md">{title}</Heading>
           <Text>{description}</Text>
+          <Text>{skills}</Text>
           <CardButtons githubLink={githubLink} demoLink={demoLink} />
-
         </VStack>
       </VStack>
     </HStack>

@@ -5,30 +5,85 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Youtube Player",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️. ",
-    getImageSrc: () => require("../images/photo1.jpg"),
-    githubLink:"https://www.google.com",
-    demoLink:"https://www.baidu.com"
+      "A youtube player that fecthing videos from google API ",
+      getImageSrc: () => require("../images/youtubeplayer.png"),
+      skills: "React skills used in this app: useState, useEffect, fetching data from API, custom hooks, parent & child component",
   },
   {
-    title: "React Infinite Scroll",
+    title: "Infinite Image Gallery",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "An image gallery by pulling images from Unsplash API. It will load more images as it scroll to the bottom ",
+      getImageSrc: () => require("../images/infinitimagegallery.png"),
+      skills: "React skills used in this app: Fetching data from API, React state with useState, React effects with useEffect",
   },
   {
-    title: "Photo Gallery",
+    title: "Markdown Editor",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "A real-time markdown previewer. ",
+      getImageSrc: () => require("../images/markdowneditor.png"),
+      skills: "Skills used in this app: React state with useState, Markdonw thired Party Packages",
   },
   {
-    title: "Event planner",
+    title: "Trivia App",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "Pulled trivia questions from Open Trivia Database and use them to create a Trivia game ",
+      getImageSrc: () => require("../images/triviagame.png"),
+      skills: "React skills used in this app: Fetching data from an API, React state with useState(), Custom React Hooks, Parent & child components",
+  },
+  {
+    title: "Calendar Picker",
+    description:
+      "A calendar picker to handling a start and end time",
+      getImageSrc: () => require("../images/calendarpicker.png"),
+    skills: "React skills used in this app: CSS-in-JS, React state with useState, component communication",
+    githubLink:"https://github.com/Qiugu-He/shoppingRobots",
+    demoLink:"https://shopping-robots.vercel.app/"
+  },
+  {
+    title: "Animated Chat Box",
+    description:
+      "A animated chat box",
+      getImageSrc: () => require("../images/chatbox.png"),
+      skills: "React skills used in this app: React state with useState, Timer, Animating React",
+  },
+  {
+    title: "Highlighted Tabs",
+    description:
+      "Using mouse movement to highlight tabs",
+      getImageSrc: () => require("../images/highlittabs.png"),
+    skills: "React skills used in this app: React Router, React state with useState, React effects with useEffect, Hover events",
+  },
+  {
+    title: "Moving Boxes with Link and Canvas",
+    description:
+      "Used HTML canvas to draw a Link wiht move",
+      getImageSrc: () => require("../images/movinglink.png"),
+      skills: "React skills used in this app: HTML canvas, React state with useState, React effects with useEffect, Custom React Hook",
+  },
+  {
+    title: "Paper Rock Scissors",
+    description:
+      "A Paper, Rock, Scissors game ",
+      getImageSrc: () => require("../images/paperrock.png"),
+      skills: "React skills used in this app: React state with useState, React effects with useEffect, React renering, Parent and child components, React events",
+  },
+  {
+    title: "Pomodoro Timer",
+    description:
+      "A Pomodoro timer",
+      getImageSrc: () => require("../images/promodoro.png"),
+      skills: "React skills used in this app: React state with useState, React effects with useEffect, React refs with useRef, Parent and child components",
+  },
+  {
+    title: "Robot Shopping Store",
+    description:
+      "A shopping plateform with shopping cart",
+    getImageSrc: () => require("../images/robotshop.png"),
+    skills: "Skills used in this app: TypeScript, state with useState, useEffect with Axios, useContext, component communication",
+    githubLink:"https://github.com/Qiugu-He/shoppingRobots",
+    demoLink:"https://shopping-robots.vercel.app/"
   },
 ];
 
@@ -47,7 +102,7 @@ const ProjectsSection = () => {
       spacing={8}
     >
       <Heading as="h3" id="projects-section" style={textStyle}>
-        Projects
+        Apps
       </Heading>
       <Box
         display="grid"
@@ -59,6 +114,7 @@ const ProjectsSection = () => {
             key={project.title}
             title={project.title}
             description={project.description}
+            skills={project.skills}
             imageSrc={project.getImageSrc()}
             githubLink={project.githubLink}
             demoLink={project.demoLink}

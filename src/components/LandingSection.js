@@ -6,7 +6,7 @@ import Typist from 'react-typist-component';
 const greeting1 = "Hello! I'm Qiugu He. 👋";
 const greeting2 = "A full stack developer.";
 
-const bio1 = "Welcome to this web page where I built varies small react apps to improving my react skills. ";
+const bio1 = "Welcome to this web page where I built varies small react apps to solid my react knowledges. ";
 const bio2 = "You can click the link to go to the github react repo or just click the demo link to play the app for fun.";
 const bio3 = "Thank you for visiting, and have a great day! 😊";
 
@@ -41,7 +41,7 @@ const LandingSection = () => (
 
       <VStack >
           <Button colorScheme='teal' variant='outline' onClick={scrollToSection} marginTop={"20"}>
-            Discover projects
+            Discover Apps
           </Button>
       </VStack>
     </VStack>
