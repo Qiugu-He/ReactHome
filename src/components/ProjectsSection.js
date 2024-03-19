@@ -10,6 +10,8 @@ const projects = [
       "A youtube player that fecthing videos from google API ",
       getImageSrc: () => require("../images/youtubeplayer.png"),
       skills: "React skills used in this app: useState, useEffect, fetching data from API, custom hooks, parent & child component",
+      githubLink:"https://github.com/Qiugu-He/youtubeplayer",
+      demoLink:"https://youtubeplayer-one.vercel.app/"
   },
   {
     title: "Infinite Image Gallery",
@@ -17,6 +19,8 @@ const projects = [
       "An image gallery by pulling images from Unsplash API. It will load more images as it scroll to the bottom ",
       getImageSrc: () => require("../images/infinitimagegallery.png"),
       skills: "React skills used in this app: Fetching data from API, React state with useState, React effects with useEffect",
+      githubLink:"https://github.com/Qiugu-He/infinite_img_gallery",
+      demoLink:"https://infinite-img-gallery.vercel.app/"
   },
   {
     title: "Markdown Editor",
@@ -24,6 +28,8 @@ const projects = [
       "A real-time markdown previewer. ",
       getImageSrc: () => require("../images/markdowneditor.png"),
       skills: "Skills used in this app: React state with useState, Markdonw thired Party Packages",
+      githubLink:"https://github.com/Qiugu-He/markdown_editor",
+      demoLink:"https://markdown-editor-kohl.vercel.app/"
   },
   {
     title: "Trivia App",
@@ -31,6 +37,8 @@ const projects = [
       "Pulled trivia questions from Open Trivia Database and use them to create a Trivia game ",
       getImageSrc: () => require("../images/triviagame.png"),
       skills: "React skills used in this app: Fetching data from an API, React state with useState(), Custom React Hooks, Parent & child components",
+      githubLink:"https://github.com/Qiugu-He/triviagame",
+      demoLink:"https://triviagame-alpha.vercel.app/"
   },
   {
     title: "Calendar Picker",
@@ -38,8 +46,8 @@ const projects = [
       "A calendar picker to handling a start and end time",
       getImageSrc: () => require("../images/calendarpicker.png"),
     skills: "React skills used in this app: CSS-in-JS, React state with useState, component communication",
-    githubLink:"https://github.com/Qiugu-He/shoppingRobots",
-    demoLink:"https://shopping-robots.vercel.app/"
+    githubLink:"https://github.com/Qiugu-He/calendarpicker",
+    demoLink:"https://calendarpicker.vercel.app/"
   },
   {
     title: "Animated Chat Box",
@@ -47,6 +55,8 @@ const projects = [
       "A animated chat box",
       getImageSrc: () => require("../images/chatbox.png"),
       skills: "React skills used in this app: React state with useState, Timer, Animating React",
+      githubLink:"https://github.com/Qiugu-He/animatedchatbox",
+      demoLink:"https://animatedchatbox.vercel.app/"
   },
   {
     title: "Highlighted Tabs",
@@ -54,6 +64,8 @@ const projects = [
       "Using mouse movement to highlight tabs",
       getImageSrc: () => require("../images/highlittabs.png"),
     skills: "React skills used in this app: React Router, React state with useState, React effects with useEffect, Hover events",
+    githubLink:"https://github.com/Qiugu-He/highlighttabs",
+      demoLink:"https://highlighttabs.vercel.app/"
   },
   {
     title: "Moving Boxes with Link and Canvas",
@@ -61,6 +73,8 @@ const projects = [
       "Used HTML canvas to draw a Link wiht move",
       getImageSrc: () => require("../images/movinglink.png"),
       skills: "React skills used in this app: HTML canvas, React state with useState, React effects with useEffect, Custom React Hook",
+      githubLink:"https://github.com/Qiugu-He/movinglink",
+      demoLink:"https://movinglink.vercel.app/"
   },
   {
     title: "Paper Rock Scissors",
@@ -68,6 +82,8 @@ const projects = [
       "A Paper, Rock, Scissors game ",
       getImageSrc: () => require("../images/paperrock.png"),
       skills: "React skills used in this app: React state with useState, React effects with useEffect, React renering, Parent and child components, React events",
+      githubLink:"https://github.com/Qiugu-He/paperrockscissors",
+      demoLink:"https://paperrockscissors.vercel.app/"
   },
   {
     title: "Pomodoro Timer",
@@ -75,6 +91,8 @@ const projects = [
       "A Pomodoro timer",
       getImageSrc: () => require("../images/promodoro.png"),
       skills: "React skills used in this app: React state with useState, React effects with useEffect, React refs with useRef, Parent and child components",
+      githubLink:"https://github.com/Qiugu-He/pomodoro",
+      demoLink:"https://pomodoro-blush-gamma.vercel.app/"
   },
   {
     title: "Robot Shopping Store",
