@@ -34,7 +34,7 @@ const CardButtons = ({ githubLink, demoLink }) => {
       <ChakraLink href={githubLink} isExternal as="a">
         <Button colorScheme='teal' variant='outline' marginRight="2">
           <Box display="inline" marginRight="2">
-            <FontAwesomeIcon key={githubLink} icon={faGithub} size="1x" />
+            {/* <FontAwesomeIcon key={githubLink} icon={faGithub} size="1x" /> */}
           </Box>
           Repo
         </Button>
@@ -44,7 +44,7 @@ const CardButtons = ({ githubLink, demoLink }) => {
         <Button colorScheme='teal' variant='outline'>
             Demo
             <Box display="inline" marginLeft="2">
-              <FontAwesomeIcon key={demoLink} icon={faArrowRight} size="1x" />
+              {/* <FontAwesomeIcon key={demoLink} icon={faArrowRight} size="1x" /> */}
             </Box>
           </Button>
       </ChakraLink>

@@ -2,6 +2,9 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
+import styles from './styles.module.css';
+import image from "../images/atom.png"
+
 
 const projects = [
   {
@@ -107,7 +110,8 @@ const projects = [
 
 const textStyle = {
   fontWeight: 'normal',
-  color: 'black'
+  color: 'black',
+  display: 'flex'
 };
 
 const ProjectsSection = () => {
@@ -120,7 +124,8 @@ const ProjectsSection = () => {
       spacing={8}
     >
       <Heading as="h3" id="projects-section" style={textStyle}>
-        Apps
+        <img src={image} className={styles["App-logo"]}/>
+        <span> React Apps</span>
       </Heading>
       <Box
         display="grid"

@@ -6,7 +6,8 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
-import image from "../images/atom2.png"
+import image from "../images/atom.png"
+import styles from './styles.module.css';
 
 const socials = [
   {
@@ -100,8 +101,8 @@ const Header = () => {
             <HStack spacing={8}>
               {/* Add links to Projects */}
               <a href="/#projects-section" onClick={handleClick} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}> 
-                <img src={image} style={{ width: '40px', height: '40px', marginRight: '10px' }}/> 
-                <span>React Apps</span>
+                <img src={image} className={styles["App-logo"]}/> 
+                <span style={{marginLeft: '10px'}}>React Apps</span>
               </a>
             </HStack>
           </nav>
