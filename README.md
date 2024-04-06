@@ -2,6 +2,10 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Screenshot
+
+![BuildReactApps](https://github.com/Qiugu-He/ReactHome/blob/master/public/Screenshoot.png)
+
 ## Description
 
 A showcase website where I built 10+ React Apps to solid my React related knowledges. 
