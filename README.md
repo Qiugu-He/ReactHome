@@ -16,7 +16,6 @@ A showcase website where I built 10+ React Apps to solid my React related knowle
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [Author](#Author)
 
