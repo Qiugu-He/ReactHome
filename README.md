@@ -1,13 +1,12 @@
 # Building React App! 
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Issues](https://img.shields.io/github/issues/your-username/your-repo.svg)](https://github.com/Qiugu-He/ReactHome/issues)
 
 ## Description
 
 A showcase website where I built 10+ React Apps to solid my React related knowledges. 
 
-[Site Address](www.google.com)
+[Live Address](https://react-home-zeta.vercel.app/)
 
 ## Apps
 
@@ -15,24 +14,19 @@ A showcase website where I built 10+ React Apps to solid my React related knowle
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Credits](#credits)
+- [Author](#Author)
 
 ## Installation
 
-Instructions for installing and setting up the project. Include any prerequisites or dependencies.
-
-## Usage
-
-Instructions for using the project. Include examples or screenshots if applicable.
-
-## Contributing
-
-Guidelines for contributing to the project. Include information on how others can contribute, report issues, or submit feature requests.
+1. Fork or downlaod the repo
+2. Install dependencies: npm i
+3. Run the app: npm start
+4. Build the app: npm run build
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
-## Credits
+## Author
 
-List of contributors or acknowledgments.
+@Qiugu He
