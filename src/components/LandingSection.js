@@ -6,9 +6,9 @@ import Typist from 'react-typist-component';
 const greeting1 = "Hello! I'm Qiugu He. 👋";
 const greeting2 = "A full stack developer.";
 
-const bio1 = "Welcome to this web page where I built varies small react apps to solid my react knowledges. ";
-const bio2 = "You can click the link to go to the github react repo or just click the demo link to play the app for fun.";
-const bio3 = "Thank you for visiting, and have a great day! 😊";
+const bio1 = "Welcome to this web page where I am creating various small react apps to solidify my react knowledges. ";
+const bio2 = "By clicking the links under each app, you will be able to play with the app or view the source code on Github.";
+const bio3 = "Thank you for visiting, and hope have a wonderful day! 😊";
 
 const textStyle = {fontWeight: 'normal',};
 const scrollToSection = () => {

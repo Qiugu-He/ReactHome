@@ -17,3 +17,7 @@
       transform: rotate(360deg);
     }
   }
+
+  .black-image {
+    filter: grayscale(100%) brightness(0%);
+  }

@@ -124,8 +124,7 @@ const ProjectsSection = () => {
       spacing={8}
     >
       <Heading as="h3" id="projects-section" style={textStyle}>
-        <img src={image} className={styles["App-logo"]}/>
-        <span> React Apps</span>
+      <img src={image} className={`${styles["App-logo"]} ${styles["black-image"]}`} alt="logo" />
       </Heading>
       <Box
         display="grid"
